@@ -17,6 +17,8 @@ export default function MoviesGrid(){
         setSearch(e.target.value);
     }
 
+    const filterByGenre =()=>{}
+    
     const filteredMovies = movies.filter(movie => movie.title.toLowerCase().includes(search.toLowerCase()));
 
     return (
